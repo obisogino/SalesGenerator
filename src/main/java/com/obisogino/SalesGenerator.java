@@ -78,7 +78,7 @@ public class SalesGenerator {
             // Create sales for each unique OR number
             for (Integer orNumber : orNumbers) {
                 // Determine number of items (1 to 3)
-                int itemsCount = RANDOM.nextInt(3) + 1; // 1 to 3 items
+                int itemsCount = RANDOM.nextInt(5) + 1; // 1 to 3 items
                 List<String> items = new ArrayList<>(PRICE_LIST.keySet());
                 List<String> selectedItems = new ArrayList<>();
 
